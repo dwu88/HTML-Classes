@@ -1,0 +1,23 @@
+h1 {
+  color: rgba(0,200,100,0.8);
+  /* border-color:purple;
+  border-width: 5px;
+  border-style: solid; */
+  border: 2px dashed purple;
+
+}
+
+/* width
+color
+style */
+
+h4 {
+  background: rgb(255,100,80);
+}
+
+body{
+  background: pink;
+  /* background: url(http://biteinto.info/wp-content/uploads/2016/02/wood-flooring-texture-and-oak-wood-flooring-texture-seamless-seamless-wood-grain-texture-14.jpg) ;
+  background-repeat: no-repeat;
+  background-size:cover */
+}

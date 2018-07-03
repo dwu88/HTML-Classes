@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Specificity</title>
+    <style type="text/css">
+    /* type Selectors */
+    body{
+      color: red;
+    }
+      ul{
+        color: purple;
+      }
+
+      li {
+        color: orange
+      }
+      /* Class, Attribute, and Pseudo-Class Selectors */
+      .highlight {
+        color: yellow;
+      }
+
+      /* ID Selectors */
+      #special{
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p>Hello!!!</p>
+
+    <ul>
+      <li id="special" class="highlight">John</li>
+      <li>Paul</li>
+      <li>George</li>
+      <li class="highlight">Ringo</li>
+    </ul>
+
+
+
+
+  </body>
+</html>
